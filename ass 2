@@ -1,0 +1,8 @@
+n=int(input())
+l=list(map(int,input().split()))
+s=set(l)
+l=list(s)
+fmax=max(l)
+l.remove(fmax)
+smax=max(l)
+print(smax)
