@@ -1,0 +1,8 @@
+class Solution:
+    def findDisappearedNumbers(self, nums: List [int]) -> List[int]:
+
+        n=len(nums)
+        m=[]
+        for i in range(0,n+1):
+            if i not in nums:
+               m.append(i)
